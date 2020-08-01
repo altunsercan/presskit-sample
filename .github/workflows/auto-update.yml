@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
 
     - name: Install Presskit
-      run: npm install -g presskit
+      run: npm install presskit
     
     - name: Build
       run: presskit build
