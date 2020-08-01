@@ -15,7 +15,7 @@ jobs:
       run: npm install presskit
     
     - name: Build
-      run: presskit build
+      run: npx presskit build
     
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
