@@ -17,6 +17,8 @@ jobs:
     - name: Build
       run: npx presskit build
     
+    - run: git add -A && git commit -m "Add generated static site"
+    
     - name: GitHub Push
       uses: ad-m/github-push-action@v0.6.0
       with:
