@@ -1,0 +1,26 @@
+name: Auto Update
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install Presskit
+      run: npm install -g presskit
+    
+    - name: Build
+      run: presskit build
+    
+    - name: GitHub Push
+      uses: ad-m/github-push-action@v0.6.0
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        # Destination branch to push changes
+        branch: "gh-pages"
+        force: true
