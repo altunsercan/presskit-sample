@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<product>
+  <title>The Game</title>
+  <release-date>Fall 2020</release-date>
+  <website>https://unog.dev</website>
+
+  <!-- Link to request press copy: -->
+  <press-copy-request>https://unog.dev</press-copy-request>
+
+  <platforms>
+    <platform>
+      <name>Steam</name>
+      <link>https://unog.dev</link>
+    </platform>
+
+    <platform>
+      <name>Google Play</name>
+      <link>https://unog.dev</link>
+    </platform>
+  </platforms>
+
+  <prices>
+    <price>
+      <currency>USD</currency>
+      <value>10</value>
+    </price>
+  </prices>
+
+  <description>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras leo orci, sagittis sed placerat non, porta a massa. Integer sodales nibh orci. In hac habitasse platea dictumst. Ut eu gravida dui. Phasellus pharetra lectus a enim gravida, in convallis magna placerat. Vivamus venenatis massa sit amet nunc convallis ultricies. Maecenas enim nulla, ultrices ut porta vitae, rhoncus porttitor leo. Vestibulum fringilla vel dolor vel maximus. In auctor elit nunc. Nulla mollis vestibulum rhoncus. Suspendisse vehicula a lectus sed feugiat. Morbi gravida convallis urna, quis suscipit elit lacinia non.
+    In eros justo, scelerisque at scelerisque non, fringilla sit amet est. Sed cursus odio sed erat viverra ultricies. Vestibulum quis magna a lorem rhoncus rhoncus. Morbi eget eros tincidunt, convallis lorem id, auctor nulla. Fusce non mauris at lorem iaculis finibus vitae eu sapien. Suspendisse ligula purus, sagittis eu pharetra at, pretium ut est. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam eleifend commodo fringilla. In massa lectus, mattis vel suscipit eget, tempor vel erat. Vivamus accumsan, risus eget porttitor vulputate, sapien augue accumsan magna, ac vehicula leo justo in purus. Sed sed pharetra leo. Morbi ut urna finibus, iaculis erat et, blandit dolor. Donec tincidunt eget tellus at malesuada. In tristique ultricies libero, at elementum leo posuere sed.
+  </description>
+
+  <!-- Choose between a single block: -->
+  <!--<history></history>-->
+
+  <!-- Or multiple blocks: -->
+  <histories>
+    <history>
+      <header>
+        Ac Porta Eros
+      </header>
+      <text>
+        Vivamus vehicula arcu id nulla faucibus efficitur ac porta eros. Maecenas quis maximus urna. Maecenas sit amet tristique nibh. Quisque ut sem lorem. Donec vitae eros vel mauris auctor convallis ut quis tortor. Aenean sed dictum diam, vestibulum tempus ipsum. Praesent vitae libero sit amet mi gravida tempor. Sed et mattis risus.
+      </text>
+    </history>
+    <history>
+      <header>
+        Est Ut Ex
+      </header>
+      <text>
+        Duis vehicula est ut ex convallis efficitur. Quisque vel diam sodales, egestas sem sit amet, pretium eros. Cras bibendum sapien turpis, nec viverra felis dapibus ac. Fusce placerat nulla nisl, non convallis tellus pellentesque nec. Suspendisse lacinia, augue id volutpat imperdiet, erat odio imperdiet eros, sed sagittis orci ex sit amet dolor. Morbi a purus quis dolor interdum varius. Integer accumsan neque et sapien malesuada, in convallis velit pulvinar. In hac habitasse platea dictumst. Etiam vestibulum sapien nec dolor efficitur, eget vulputate tellus consectetur. Sed eleifend tortor sapien, a posuere risus egestas rhoncus. Sed bibendum, ex nec volutpat posuere, sem felis porta libero, suscipit vulputate est nisl eget nisi. Sed tempus lectus ac eleifend elementum. Integer tempor sed mi eu mattis. Fusce fermentum varius ex ut porta. Aliquam nec mauris quam.
+        Donec vitae efficitur tellus. Mauris tempus eros in nulla dapibus semper eget quis metus. In elementum dictum blandit. Etiam finibus lacus vitae pretium convallis. Maecenas dapibus sapien non nunc tristique, in fermentum arcu malesuada. Pellentesque feugiat ligula nulla, ac tincidunt tortor volutpat non. Pellentesque hendrerit sed velit vitae efficitur.
+      </text>
+    </history>
+  </histories>
+
+  <features>
+    <feature>Maecenas sit amet turpis a ligula dictum ornare sit amet ut odio.</feature>
+    <feature>Cras ut urna eget metus convallis congue vel et libero.</feature>
+    <feature>Sed ac felis porttitor, mattis nunc sit amet, vehicula sem.</feature>
+    <feature>Duis sagittis leo vel tellus laoreet elementum.</feature>
+    <feature>Sed sit amet lacus vel leo rhoncus porttitor.</feature>
+  </features>
+
+  <trailers>
+    <trailer>
+      <name>Trailer</name>
+
+      <!-- Pick one: -->
+      <youtube>
+        <!-- Video ID only, not the full URL -->
+        5OTJz8LXp9k
+      </youtube>
+      <vimeo>
+        <!-- Video ID only, not the full URL -->
+      </vimeo>
+    </trailer>
+  </trailers>
+
+  <!-- You can set your widgets here (optional): -->
+  <widgets>
+    <steam>
+      <!-- Steam ID -->
+      <!-- e.g. 424242 -->
+    </steam>
+    <humble>
+      <!-- Humble Bundle product/id -->
+      <!-- e.g. mysupergame/42AAbB42dC -->
+    </humble>
+    <itch>
+      <!-- itch.io ID -->
+      <!-- e.g. 42424 -->
+    </itch>
+    <gamejolt>
+      <!-- Game Jolt package ID -->
+      <!-- e.g. 4AbCd2Ef -->
+    </gamejolt>
+    <bandcamp>
+      <!-- Bandcamp ID -->
+      <!-- e.g. 4242424242 -->
+    </bandcamp>
+  </widgets>
+
+  <awards>
+    <award>
+      <description></description>
+      <info></info>
+    </award>
+  </awards>
+
+  <quotes>
+    <quote>
+      <description></description>
+      <name></name>
+      <website></website>
+      <link></link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title></title>
+      <description></description>
+      <link></link>
+    </additional>
+  </additionals>
+
+  <credits>
+    <credit>
+      <person></person>
+      <role></role>
+
+      <!-- Optional: -->
+      <website></website>
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name></name>
+
+      <!-- Pick one: -->
+      <mail></mail>
+      <link></link>
+    </contact>
+  </contacts>
+</product>

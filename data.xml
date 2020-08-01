@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<company>
+  <title>My Awesome Company</title>
+  <based-in>Istanbul, Turkey</based-in>
+  <founding-date>2020</founding-date>
+  <website>https://unog.dev</website>
+  <press-contact>
+    <!-- Mail address -->
+    info@example.com
+  </press-contact>
+
+  <!-- Google analytics ID: -->
+  <analytics>UA-24178813-5</analytics>
+
+  <phone></phone>
+  <address>
+    <line>
+      <!-- Street -->
+      Boğaz Manzarası Sk. Gazeteciler Apt. No 1, Emektarlar Mah.
+    </line>
+    <line>
+      <!-- City -->
+      Istanbul
+    </line>
+    <line>
+      <!-- Country -->
+      Turkey
+    </line>
+  </address>
+
+  <socials>
+    <social>
+      <name>Facebook</name>
+      <link>
+        <!-- URL starting with http or https -->
+        https://www.facebook.com/unoghub/
+      </link>
+
+      <name>Twitter</name>
+      <link>
+        <!-- URL starting with http or https -->
+        https://twitter.com/unoghub
+      </link>
+    </social>
+  </socials>
+
+  <description>
+    In this fake company, we create fake games for no one to play. We strive for excellence in making boring games.
+    Most definitely don't play our non existing games.
+  </description>
+
+  <!-- Choose between a single block: -->
+  <history>
+    Our company's history dates back to old days of Istanbul. All those hills were still forests. Then our
+    great grandfather sold it to someone or something like that. So we are not rich.
+  </history>
+
+  <!-- Or multiple blocks: -->
+  <!--
+  <histories>
+    <history>
+      <header></header>
+      <text></text>
+    </history>
+  </histories>
+  -->
+
+  <trailers>
+    <trailer>
+      <name>ÜNOG Konferans</name>
+
+      <!-- Pick one: -->
+      <youtube>
+        <!-- Video ID only, not the full URL -->
+        5OTJz8LXp9k
+      </youtube>
+
+      <vimeo>
+        <!-- Video ID only, not the full URL -->
+      </vimeo>
+    </trailer>
+  </trailers>
+
+  <awards>
+    <award>
+      <description>The Best Game Ever Not Made Award</description>
+      <info>https://unog.dev/</info>
+    </award>
+  </awards>
+
+  <quotes>
+    <quote>
+      <description>This is the company I will never work for.</description>
+      <name>Sercan Mercan</name>
+      <website>ÜNOG Developer Community</website>
+      <link>https://unog.dev/</link>
+    </quote>
+  </quotes>
+
+  <additionals>
+    <additional>
+      <title>Additional Info</title>
+      <description>
+        Quisque faucibus sollicitudin dolor. Morbi efficitur elit et augue elementum lobortis. Cras elementum metus vitae magna euismod placerat. Vivamus a sollicitudin sem.
+      </description>
+      <link>https://unog.dev/</link>
+    </additional>
+  </additionals>
+
+  <credits>
+    <credit>
+      <person>Ali Veli</person>
+      <role>Gameplay Programmer</role>
+
+      <!-- Optional: -->
+      <website>https://unog.dev/</website>
+    </credit>
+
+    <credit>
+      <person>Fadime Medine</person>
+      <role>Game Designer</role>
+
+      <!-- Optional: -->
+      <!--<website></website>-->
+    </credit>
+  </credits>
+
+  <contacts>
+    <contact>
+      <name>Press Contact</name>
+
+      <!-- Pick one: -->
+      <mail>info@example.com</mail>
+      <!--<link></link>-->
+    </contact>
+  </contacts>
+</company>
